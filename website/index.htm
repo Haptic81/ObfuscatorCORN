@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triple Obfuscator with Raw Loadstring</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Roblox Lua Obfuscator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <div class="container">
-    <h1>Triple Obfuscator with Raw Loadstring</h1>
-    <textarea id="luaCode" placeholder="Paste your Roblox Lua code here..."></textarea>
-    <button onclick="obfuscateCode()">Obfuscate Code</button>
-
-    <div class="output-box" id="outputContainer" style="display:none;">
-        <h2>Obfuscated Code</h2>
-        <pre id="obfuscatedCode"></pre>
-    </div>
+    <h2>Roblox Lua Obfuscator</h2>
+    <textarea id="luaCode" placeholder="Paste your Lua script here..."></textarea>
+    <button onclick="obfuscateAndSave()">Obfuscate & Generate Link</button>
+    <div class="output" id="outputBox" style="display:none;"></div>
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
